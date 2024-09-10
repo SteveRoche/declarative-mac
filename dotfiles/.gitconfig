@@ -1,0 +1,13 @@
+[user]
+  name = Steve Roche
+  email = steve.roche.xyz@proton.me
+  username = SteveRoche
+[init]
+  defaultBranch = main
+[core]
+  editor = nvim
+[rerere]
+  enabled = 1
+  autoupdate = 1
+[github]
+  user = SteveRoche
