@@ -158,6 +158,10 @@
           "visual-studio-code"
           "github"
           "imhex"
+
+          # Fonts
+          "font-fragment-mono"
+          "font-fira-code-nerd-font"
         ];
       };
     };

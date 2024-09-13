@@ -18,5 +18,4 @@ $ curl -o- https://raw.githubusercontent.com/SteveRoche/declarative-mac/main/ins
 
 ## TODO
 
-- [ ] Automate installing fonts
 - [ ] Sync VS Code settings
