@@ -53,6 +53,9 @@
         zls
         alejandra
         luajitPackages.lua-lsp
+        # texlive.combined.scheme-medium
+        (texlive.combine { inherit (texlive) scheme-medium
+          titlesec textpos isodate substr; })
 
         nodejs_20
         nodePackages.pnpm
