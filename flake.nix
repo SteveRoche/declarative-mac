@@ -52,7 +52,7 @@
         zig
         zls
         alejandra
-        luajitPackages.lua-lsp
+        lua-language-server
         # texlive.combined.scheme-medium
         (texlive.combine { inherit (texlive) scheme-medium
           titlesec textpos isodate substr; })
