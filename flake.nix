@@ -148,12 +148,14 @@
           "obsidian"
           "raycast"
           "proton-pass"
+          "protonvpn"
           "arc"
           "ticktick"
           "whatsapp"
           "blender"
           "discord"
           "keepingyouawake"
+          "steam"
           # "unnaturalscrollwheels"
 
           # GUI developer tools
