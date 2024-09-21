@@ -8,12 +8,12 @@ return {
     config = function()
       local lsp_zero = require('lsp-zero')
       local lsp_config = require('lspconfig')
-      
+
       -- lsp_attach is where you enable features that only work
       -- if there is a language server active in the file
       local lsp_attach = function(client, bufnr)
         local opts = { buffer = bufnr }
-      
+
         vim.keymap.set('n', 'K', '<cmd>lua vim.lsp.buf.hover()<cr>', { buffer = bufnr, desc = 'hover' })
         vim.keymap.set('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<cr>', { buffer = bufnr, desc = 'goto def' })
         vim.keymap.set('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<cr>', { buffer = bufnr, desc = 'goto decl' })
@@ -25,7 +25,7 @@ return {
         vim.keymap.set({'n', 'x'}, '<F3>', '<cmd>lua vim.lsp.buf.format({async = true})<cr>', { buffer = bufnr, desc = 'format' })
         vim.keymap.set('n', '<F4>', '<cmd>lua vim.lsp.buf.code_action()<cr>', { buffer = bufnr, desc = 'quick action' })
       end
-      
+
       lsp_zero.extend_lspconfig({
         sign_text = true,
         lsp_attach = lsp_attach,
