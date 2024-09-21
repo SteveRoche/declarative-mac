@@ -149,6 +149,8 @@
           "raycast"
           "proton-pass"
           "protonvpn"
+          "proton-mail"
+          "proton-drive"
           "arc"
           "ticktick"
           "whatsapp"
