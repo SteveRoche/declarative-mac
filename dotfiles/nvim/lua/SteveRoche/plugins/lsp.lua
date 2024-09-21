@@ -11,9 +11,8 @@ return {
 
       -- lsp_attach is where you enable features that only work
       -- if there is a language server active in the file
-      local lsp_attach = function(client, bufnr)
-        local opts = { buffer = bufnr }
-
+      local lsp_attach = function(_, bufnr)
+        -- NOTE: <C-o> to jump back
         vim.keymap.set('n', 'K', '<cmd>lua vim.lsp.buf.hover()<cr>', { buffer = bufnr, desc = 'hover' })
         vim.keymap.set('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<cr>', { buffer = bufnr, desc = 'goto def' })
         vim.keymap.set('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<cr>', { buffer = bufnr, desc = 'goto decl' })
