@@ -115,6 +115,7 @@
             "/Applications/iTerm.app"
             "/Applications/Visual Studio Code.app"
           ];
+          minimize-to-application = true;
           persistent-others = [];
           show-recents = false;
           tilesize = 48;
