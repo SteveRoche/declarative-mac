@@ -38,6 +38,7 @@
         fd
         zoxide
         just
+        cloc
 
         # Git
         gitAndTools.gitFull
