@@ -27,6 +27,7 @@
     configuration = {pkgs, ...}: {
       environment.systemPackages = with pkgs; [
         # Tools
+        git-extras
         wget
         tree
         neofetch
@@ -60,6 +61,7 @@
 
         nodejs_20
         nodePackages.pnpm
+        python312
 
         # Containerization
         podman
@@ -67,6 +69,8 @@
         kubectl
         kustomize_4
         kubernetes-helm
+        hugo
+        dart-sass
       ];
 
       # Auto upgrade nix package and the daemon service.
@@ -160,6 +164,8 @@
           "discord"
           "keepingyouawake"
           "steam"
+          "netnewswire"
+          "yt-music"
           # "unnaturalscrollwheels"
 
           # GUI developer tools
@@ -168,6 +174,7 @@
           "github"
           "imhex"
 
+          "teamviewer"
           # Fonts
           "font-fragment-mono"
           "font-fira-code-nerd-font"
