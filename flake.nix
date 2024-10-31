@@ -55,6 +55,7 @@
         zls
         go
         gopls
+        cmake
         alejandra
         lua-language-server
         # texlive.combined.scheme-medium
@@ -71,6 +72,7 @@
         kubectl
         kustomize_4
         kubernetes-helm
+
         hugo
         dart-sass
       ];
@@ -177,6 +179,7 @@
           "imhex"
 
           "teamviewer"
+
           # Fonts
           "font-fragment-mono"
           "font-fira-code-nerd-font"
