@@ -53,6 +53,8 @@
         # Languages and language tools
         zig
         zls
+        go
+        gopls
         alejandra
         lua-language-server
         # texlive.combined.scheme-medium
