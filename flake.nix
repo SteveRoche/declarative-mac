@@ -170,6 +170,7 @@
           "steam"
           "netnewswire"
           "yt-music"
+          "pomatez"
           # "unnaturalscrollwheels"
 
           # GUI developer tools
