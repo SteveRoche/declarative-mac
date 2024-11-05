@@ -118,7 +118,7 @@
           mru-spaces = false;
           magnification = true;
           persistent-apps = [
-            "/Applications/Arc.app"
+            "/Applications/Zen Browser.app"
             "/Applications/TickTick.app"
             "/Applications/Obsidian.app"
             "/Applications/iTerm.app"
@@ -161,7 +161,7 @@
           "protonvpn"
           "proton-mail"
           "proton-drive"
-          "arc"
+          "zen-browser"
           "ticktick"
           "whatsapp"
           "blender"
