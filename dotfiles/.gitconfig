@@ -11,3 +11,5 @@
   autoupdate = 1
 [github]
   user = SteveRoche
+[remote "origin"]
+  prune = true
