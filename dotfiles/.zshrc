@@ -68,3 +68,4 @@ alias configure='$EDITOR ~/.config/nix-darwin'
 
 alias lg='lazygit'
 alias ls='ls --color'
+alias glg='git log --pretty="$%C(yellow)%h%C(reset) %<(50,trunc)%s" --shortstat --color | tr "\n" " " | tr "$" "\n"'
