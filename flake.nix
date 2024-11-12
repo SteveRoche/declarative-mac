@@ -176,6 +176,7 @@
           # GUI developer tools
           "iterm2"
           "visual-studio-code"
+          "zed"
           "github"
           "imhex"
 
