@@ -73,6 +73,8 @@
         kustomize_4
         kubernetes-helm
 
+        shaderc
+
         hugo
         dart-sass
       ];
@@ -119,6 +121,7 @@
           magnification = true;
           persistent-apps = [
             "/Applications/Zen Browser.app"
+            "/Applications/Horse 2.app"
             "/Applications/TickTick.app"
             "/Applications/Obsidian.app"
             "/Applications/iTerm.app"
