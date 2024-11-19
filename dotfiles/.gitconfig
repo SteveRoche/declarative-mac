@@ -2,10 +2,13 @@
   name = Steve Roche
   email = steve.roche.xyz@proton.me
   username = SteveRoche
+  signingkey = E482D96087C672E9
 [init]
   defaultBranch = main
 [core]
   editor = nvim
+[commit]
+  gpgsign = true
 [rerere]
   enabled = 1
   autoupdate = 1
