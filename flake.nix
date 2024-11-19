@@ -45,6 +45,7 @@
         gitAndTools.gitFull
         gh
         lazygit
+        gnupg
 
         # Editors
         vim
