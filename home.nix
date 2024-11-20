@@ -15,6 +15,7 @@
     ".p10k.zsh".source = ./dotfiles/.p10k.zsh;
     ".gitconfig".source = ./dotfiles/.gitconfig;
 
+    ".config/helix/config.toml".source = ./dotfiles/helix/config.toml;
     ".config/lf/lc.sh".source = ./dotfiles/lf/lc.sh;
     ".config/nvim" = {
       source = ./dotfiles/nvim;

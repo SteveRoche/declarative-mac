@@ -181,6 +181,7 @@
           "yt-music"
           "pomatez"
           # "unnaturalscrollwheels"
+          "grandperspective"
 
           # GUI developer tools
           "iterm2"

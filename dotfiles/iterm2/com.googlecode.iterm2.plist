@@ -1673,7 +1673,7 @@
 			<key>Normal Font</key>
 			<string>FiraCodeNFM-Light 13</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
