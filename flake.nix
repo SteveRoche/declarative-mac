@@ -40,6 +40,7 @@
         zoxide
         just
         cloc
+        zellij
 
         # Git
         gitAndTools.gitFull
@@ -57,6 +58,7 @@
         zls
         go
         gopls
+        lldb_18
         cmake
         alejandra
         lua-language-server
@@ -65,6 +67,7 @@
           titlesec textpos isodate substr; })
 
         nodejs_20
+        deno
         nodePackages.pnpm
         python312
 
@@ -127,11 +130,11 @@
           mru-spaces = false;
           magnification = true;
           persistent-apps = [
+            "/Applications/Alacritty.app"
             "/Applications/Zen Browser.app"
             "/Applications/Horse 2.app"
             "/Applications/TickTick.app"
             "/Applications/Obsidian.app"
-            "/Applications/iTerm.app"
             "/Applications/Visual Studio Code.app"
           ];
           minimize-to-application = true;
@@ -185,7 +188,7 @@
           "grandperspective"
 
           # GUI developer tools
-          "iterm2"
+          "alacritty"
           "visual-studio-code"
           "zed"
           "github"
