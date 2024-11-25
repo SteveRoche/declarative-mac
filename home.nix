@@ -25,7 +25,7 @@
   };
 
   home.sessionVariables = {
-    EDITOR = "nvim";
+    EDITOR = "hx";
     DOCKER_HOST = "unix:///tmp/podman/podman-machine-default-api.sock";
   };
 

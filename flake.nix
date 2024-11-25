@@ -50,6 +50,7 @@
         # Editors
         vim
         neovim
+        helix
 
         # Languages and language tools
         zig
