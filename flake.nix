@@ -168,6 +168,7 @@
           "vfkit" # https://github.com/NixOS/nixpkgs/issues/305868
         ];
         casks = [
+          "zed"
           "obsidian"
           "raycast"
           "proton-pass"
@@ -190,11 +191,8 @@
           # GUI developer tools
           "alacritty"
           "visual-studio-code"
-          "zed"
           "github"
           "imhex"
-
-          "teamviewer"
 
           # Fonts
           "font-fragment-mono"
