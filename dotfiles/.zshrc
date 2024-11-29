@@ -66,6 +66,7 @@ source ~/.config/lf/lc.sh
 alias rebuild='darwin-rebuild switch --flake ~/.config/nix-darwin'
 alias configure='$EDITOR ~/.config/nix-darwin'
 
+alias lazygit='CONFIG_DIR=~/.config/lazygit lazygit'
 alias lg='lazygit'
 alias ls='ls --color'
 alias glg='git log --pretty="$%C(yellow)%h%C(reset) %<(50,trunc)%s" --shortstat --color | tr "\n" " " | tr "$" "\n"'

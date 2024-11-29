@@ -28,6 +28,7 @@
       environment.systemPackages = with pkgs; [
         # Tools
         git-extras
+        delta
         wget
         tree
         neofetch

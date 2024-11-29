@@ -7,8 +7,13 @@
   defaultBranch = main
 [core]
   editor = nvim
+  pager = delta
+[interactive]
+  diffFilter = delta --color-only
 [commit]
   gpgsign = true
+[merge]
+  conflictstyle = zdiff3
 [rerere]
   enabled = 1
   autoupdate = 1
@@ -16,3 +21,6 @@
   user = SteveRoche
 [remote "origin"]
   prune = true
+[delta]
+  navigate = true
+  dark = true
