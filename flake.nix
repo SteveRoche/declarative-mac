@@ -188,6 +188,7 @@
           "pomatez"
           # "unnaturalscrollwheels"
           "grandperspective"
+          "numi"
 
           # GUI developer tools
           "alacritty"
