@@ -1,3 +1,5 @@
+[include]
+  path = ~/.config/delta/themes.gitconfig
 [user]
   name = Steve Roche
   email = steve.roche.xyz@proton.me
@@ -22,5 +24,6 @@
 [remote "origin"]
   prune = true
 [delta]
+  features = kingfisher
   navigate = true
   dark = true
