@@ -16,6 +16,7 @@
     ".gitconfig".source = ./dotfiles/.gitconfig;
 
     ".config/helix/config.toml".source = ./dotfiles/helix/config.toml;
+    ".config/helix/lf-pick".source = ./dotfiles/helix/lf-pick;
     ".config/ghostty/config".source = ./dotfiles/ghostty;
     ".config/lazygit/config.yml".source = ./dotfiles/lazygit/config.yml;
     ".config/zellij/config.kdl".source = ./dotfiles/zellij/config.kdl;
