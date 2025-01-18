@@ -131,7 +131,7 @@
           mru-spaces = false;
           magnification = true;
           persistent-apps = [
-            "/Applications/Alacritty.app"
+            "/Applications/Ghostty.app"
             "/Applications/Zen Browser.app"
             "/Applications/Horse 2.app"
             "/Applications/TickTick.app"
@@ -191,7 +191,7 @@
           "numi"
 
           # GUI developer tools
-          "alacritty"
+          "ghostty"
           "visual-studio-code"
           "github"
           "imhex"
