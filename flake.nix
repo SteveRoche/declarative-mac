@@ -36,6 +36,7 @@
         ripgrep
         fzf
         unixtools.watch
+        watchexec
         lf
         fd
         zoxide
@@ -71,6 +72,7 @@
         deno
         nodePackages.pnpm
         python312
+        turso-cli
 
         # Containerization
         podman
@@ -86,8 +88,9 @@
       ];
 
       # Auto upgrade nix package and the daemon service.
-      services.nix-daemon.enable = true;
       # nix.package = pkgs.nix;
+
+      nix.enable = true;
 
       nix.gc = {
         automatic = true;
@@ -120,7 +123,7 @@
       nixpkgs.config.allowUnfree = true;
 
       # Enable sudo using Touch ID
-      security.pam.enableSudoTouchIdAuth = true;
+      security.pam.services.sudo_local.touchIdAuth = true;
 
       system.defaults = {
         NSGlobalDomain = {
@@ -169,14 +172,13 @@
           "vfkit" # https://github.com/NixOS/nixpkgs/issues/305868
         ];
         casks = [
-          "zed"
+          "zen-browser"
           "obsidian"
           "raycast"
           "proton-pass"
           "protonvpn"
           "proton-mail"
           "proton-drive"
-          "zen-browser"
           "ticktick"
           "whatsapp"
           "blender"
@@ -189,6 +191,7 @@
           # "unnaturalscrollwheels"
           "grandperspective"
           "numi"
+          "linear-linear"
 
           # GUI developer tools
           "ghostty"

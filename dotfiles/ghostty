@@ -1,1 +1,2 @@
-theme = "Kanagawa Dragon"
+theme = dark:"Kanagawa Dragon",light:"flatwhite"
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
