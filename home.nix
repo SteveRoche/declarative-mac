@@ -30,6 +30,7 @@
 
   home.sessionVariables = {
     EDITOR = "hx";
+    VISUAL = "hx";
     DOCKER_HOST = "unix:///tmp/podman/podman-machine-default-api.sock";
   };
 
