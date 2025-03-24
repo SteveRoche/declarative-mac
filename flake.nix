@@ -134,12 +134,20 @@
           mru-spaces = false;
           magnification = true;
           persistent-apps = [
-            "/Applications/Ghostty.app"
-            "/Applications/Zen Browser.app"
             "/Applications/Horse 2.app"
+            "/Applications/Zen Browser.app"
+            { spacer = { small = true; }; }
+            "/Applications/Proton Mail.app"
             "/Applications/TickTick.app"
             "/Applications/Obsidian.app"
+            "/Applications/Linear.app"
+            { spacer = { small = true; }; }
+            "/Applications/Ghostty.app"
             "/Applications/Visual Studio Code.app"
+            { spacer = { small = true; }; }
+            "/Applications/NetNewsWire.app"
+            "/Applications/Zotero.app"
+            "/Applications/Numi.app"
           ];
           minimize-to-application = true;
           persistent-others = [];
@@ -192,6 +200,7 @@
           "grandperspective"
           "numi"
           "linear-linear"
+          "zotero"
 
           # GUI developer tools
           "ghostty"
